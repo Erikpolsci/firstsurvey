@@ -1,0 +1,88 @@
+<main>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description">
+  <link rel="stylesheet" type="text/css" href="survey_.css">
+    <title> Cadastro</title> 
+   
+    <body>
+      <header class="header">
+     
+         <h1 id="title">Perfil de Investidor</h1>
+    <p id="description"> <i>Contribua com suas percepções.</i></p>
+        </header>  
+   
+      <br>
+      <br>
+      <form id="survey-form" class="form">
+        <fieldset class="group">
+          <div class="field">
+            <label id="name-label" >Nome</label>
+            <input id="name" type="text" placeholder="Insira seu nome" required>
+            </div>
+          <div class="field">
+              <label for="email" id="email-label">Email</label>
+            <input id="email" type="email" placeholder="Insira seu email" required>
+          </div>
+        
+        <div class="field">
+        <label id="number-label" for="number" class="clue">CPF</label>
+          <input id="number" type="text"  name="CPF" min="11" max="11" pattern=pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})" placeholder="Insira seu CPF" required>
+            
+          </label>
+    </fieldset>
+        </div>                                      <br>                                             <div class="field" id="teste">
+                 <label  > Qual opção abaixo define melhor seu perfil de investidor?</label>
+                                     <br>
+                                     <select id="dropdown">
+                                     <option selected disabled value="">clique e escolha</option>
+                                                      <option value="1"> Só jogo quando vejo um apontador</option>
+                                                                       <option value="2"> Jogo apenas quando consigo interpretar meu sonho</option>
+                                                                                        <option value="3"> Só ganha quem joga</option>
+                                                 </select>
+                                     
+         </div>
+                                                 <br>  
+                                                         <div>
+         <label id="marea"> Além do jogo do bicho, qual outro investimento você teria em sua carteira?</label>
+                                                           <br>
+                                                           <br>
+                          <label>
+                          <input type="radio" name="investimentos" value="marea" checked>Marea turbo 20v </label><br>
+        <label>
+           <input type="radio" name="investimentos" value="Pirâmides ">Pirâmides Financeiras </label> <br>
+     <label>
+                                                                     <input type="radio" name="investimentos" value="agiotagem">Agiotagem
+                                           </div>
+  <br>
+                                                           <br>
+                                              <fieldset class="group">  
+   <div class=>
+    <label id="check"> O que você gostaria que fosse melhorado no jogo do bicho?</label>
+    <br><br>                                            <label>
+                                                <input type="checkbox" value="apostasonline" id="apostasonline name="apostasonline><label for="apostasonline>Apostas Online</label><br>
+     <input type="checkbox" value= "apontadoresidentificados" id="apontadoresidentificados" name="apontadoresidentificados"><label for="apontadoresidentificados">Apontadores Identificados</label><br>
+    <input type="checkbox" value="meetingscombicheiros" id="meetingscombicheiros name="meetingscombicheiros"><label for="meetingscombicheiros">Meetings com Bicheiros</label><br>
+    <input type="checkbox" value="analisede sonhos" id="analisedesonhos" name="analisedesonhos"><label for="analisedesonhos">Análise de sonhos</label>
+     <br>                            </div>
+   </fieldset>      
+     
+     <div class="field">
+    <br>
+     
+    <label> Mande a sua sugestão para o escritório do Jogo do Bicho</label>
+     </div>
+     
+     <br>
+     
+    <textarea placeholder="Escreva aqui" rows="5" cols="33" id="sugestao" name="sugestao" class="sugestao"></textarea> 
+    
+     <br>
+   <div>
+    <button type="submit" id="submit" class="submit">Enviar</button>
+     </div>
+      </form>
+    </body>
+    
+                                                          
+   
